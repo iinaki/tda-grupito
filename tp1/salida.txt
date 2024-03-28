@@ -1,0 +1,6 @@
+Coeficiente de batalla : 10311
+Lista de batallas ordenada:
+ti, bi
+100,100
+3,2
+2,1
