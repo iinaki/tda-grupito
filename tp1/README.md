@@ -13,7 +13,7 @@ ti,bi
 ```
 
 Sin dejar lineas en blanco. Luego ejecutar el archivo `main.py` y la salida sera entregada en el archivo `salida.txt`
-con el mismo formato que el de la entrada, pero con las batallas ordenadas y ademas se muestra el coeficiente de batalla.
+con el mismo formato que el de la entrada, pero con las batallas ordenadas y ademas mostrandoa el coeficiente de batalla.
 
 
 ## Para ejecutar pruebas
