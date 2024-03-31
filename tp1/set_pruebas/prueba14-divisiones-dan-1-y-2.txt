@@ -1,0 +1,7 @@
+resultado esperado:
+28473
+T_i,B_i
+50,50
+2,4
+100,200
+3,3
