@@ -1,7 +1,7 @@
 from TDABatalla import Batalla
 import os
 
-set_pruebas = "./set-pruebas"
+set_pruebas = "./set_pruebas"
 
 for file in os.listdir(set_pruebas):
     prueba = file
