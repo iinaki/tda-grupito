@@ -1,20 +1,18 @@
 # Trabajo Práctico 1: Algoritmos Greedy en la Nación del Fuego
 
-# Reglas de uso
+# Reglas de uso y como correr el TP
 
 ## Para uso normal
 
 Para utilizar el programa se deben listar las batallas a ordenar en el archivo "entrada.txt" con el formato:
-
-Ti,Bi
-
+```sh
+ti,bi
 109,200
-
 43,89
-
 282,66
+```
 
-sin dejar lineas en blanco. Luego ejecutar el archivo main.py y la salida sera entregada en el archivo "salida.txt"
+Sin dejar lineas en blanco. Luego ejecutar el archivo main.py y la salida sera entregada en el archivo "salida.txt"
 con el mismo formato que el de la entrada, pero con las batallas ordenadas y ademas se muestra el coeficiente de batalla.
 
 
