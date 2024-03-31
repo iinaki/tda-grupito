@@ -18,7 +18,26 @@ con el mismo formato que el de la entrada, pero con las batallas ordenadas y ade
 
 ## Para ejecutar pruebas
 
-Para realizar las pruebas se deben agregar sets de pruebas con el formato mencionado anteriormente en la carpeta "set-prueba".
-Para los resultados esperados por cada prueba se debe escribiral inicio de cada archivo una linea que diga "resultado esperado:"
-seguida de otra linea con el coeficiente de batalla esperado. Para la ejecucion se debe correr el archivo tests.py y mostrara por consola 
-los resultados de cada prueba dependiendo de si cada set de prueba calculo correctamente su coeficiente.
+Para agregar una nueva prueba al set de pruebas, se debe crear un nuevo archivo de texto con el formato mencionado anteriormente en la carpeta `set-prueba`.
+Se debe agregar el resultado esperado por cada prueba al inicio de cada archivo una linea que diga "resultado esperado:"
+seguida de otra linea con el coeficiente de batalla esperado. 
+
+Para la ejecucion de todas las pruebas se debe correr el archivo `tests.py`, el cual mostrará por consola los resultados de cada prueba dependiendo de si cada set de prueba calculó correctamente su coeficiente.
+
+### Ejemplo con el set de 10 elementos dado por la cátedra
+
+```sh
+resultado esperado:
+309600
+T_i,B_i
+53,100
+61,100
+68,100
+68,100
+86,100
+35,100
+97,100
+58,100
+47,100
+82,100
+```
