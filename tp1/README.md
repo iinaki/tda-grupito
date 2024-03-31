@@ -21,7 +21,6 @@ con el mismo formato que el de la entrada, pero con las batallas ordenadas y ade
 ## Para ejecutar pruebas
 
 Para realizar las pruebas se deben agregar sets de pruebas con el formato mencionado anteriormente en la carpeta "set-prueba".
-estas deben tener al principio del nombre pruebaX donde X es el numero de prueba. Para los resultados esperados por cada prueba
-se debe escribir su coeficiente, ordenado por numero de prueba en el archivo "resultados_esperados.txt" dentro de la carpeta de
-sets. Para la ejecucion se debe correr el archivo tests.py y mostrara por consola RESULTADOS CORRECTOS o RESULTADOS ERRONEOS
-dependiendo de si cada set de prueba calculo correctamente su coeficiente.
+Para los resultados esperados por cada prueba se debe escribiral inicio de cada archivo una linea que diga "resultado esperado:"
+seguida de otra linea con el coeficiente de batalla esperado. Para la ejecucion se debe correr el archivo tests.py y mostrara por consola 
+los resultados de cada prueba dependiendo de si cada set de prueba calculo correctamente su coeficiente.
