@@ -19,8 +19,7 @@ con el mismo formato que el de la entrada, pero con las batallas ordenadas y ade
 ## Para ejecutar pruebas
 
 Para agregar una nueva prueba al set de pruebas, se debe crear un nuevo archivo de texto con el formato mencionado anteriormente en la carpeta `set-prueba`.
-Se debe agregar el resultado esperado por cada prueba al inicio de cada archivo una linea que diga "resultado esperado:"
-seguida de otra linea con el coeficiente de batalla esperado. 
+Se debe agregar el resultado esperado por cada prueba al inicio de cada archivo. Se agrega de la siguiente manera: una linea que diga "resultado esperado:", seguida de otra linea con el coeficiente de batalla esperado. 
 
 Para la ejecucion de todas las pruebas se debe correr el archivo `tests.py`, el cual mostrará por consola los resultados de cada prueba dependiendo de si cada set de prueba calculó correctamente su coeficiente.
 
@@ -41,3 +40,5 @@ T_i,B_i
 47,100
 82,100
 ```
+
+
