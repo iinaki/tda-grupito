@@ -2,36 +2,21 @@ from TDABatalla import Batalla
 import os
 
 set_pruebas = "./set-pruebas"
-resultados_esperados = "resultados_esperados.txt"
-
-coeficientes = []
 
 for file in os.listdir(set_pruebas):
-
-    if file == resultados_esperados:
-        continue
-
+    prueba = file
     file = set_pruebas + "/" + file 
     with open(file, "r") as f:
         batallas = []
-        next(f)
+        next(f) #salteo "coeficiente_esperado"
+        coeficiente_esperado = f.readline()
+        next(f) #salteo "ti,bi"
         for line in f:
             ti, bi = line.split(",")
             batallas.append(Batalla(int(ti), int(bi)))
 
     _, coef = Batalla.optimizar_batallas(batallas)
-    coeficientes.append(coef)
-
-with open(set_pruebas + "/" + resultados_esperados , "r") as f:
-    cont = 0
-    correctos = True
-    for line in f:
-        if int(line) != coeficientes[cont]:
-            correctos = False
-            break
-        cont += 1
-
-if correctos:
-    print("RESULTADOS CORRECTOS")
-else:
-    print("RESULTADOS ERRONEOS")
+    if coef == int(coeficiente_esperado):
+        print(prueba + "\t...CORRECTA")
+    else:
+        print(prueba + "\t...ERRONEA")
