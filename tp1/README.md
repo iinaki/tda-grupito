@@ -7,8 +7,11 @@
 Para utilizar el programa se deben listar las batallas a ordenar en el archivo "entrada.txt" con el formato:
 
 Ti,Bi
+
 109,200
+
 43,89
+
 282,66
 
 sin dejar lineas en blanco. Luego ejecutar el archivo main.py y la salida sera entregada en el archivo "salida.txt"
