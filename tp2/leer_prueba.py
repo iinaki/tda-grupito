@@ -1,6 +1,8 @@
 def leer_prueba(path_prueba):
     x = []
+    x.append(0)
     f = []
+    f.append(0)
     with open(path_prueba, 'r') as file:
         file.readline()
         n = int(file.readline().strip())
