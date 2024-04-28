@@ -53,20 +53,21 @@ def algoritmo_llorens2(x, f, n): #????
 
 def reconstruccion_pacheco(OPT, n):
     reco = []
-    reco.append("ATACAR")
-    i = n-1
-    while i>=0:
+    reco.insert(0,"ATACAR")
+    i = n
+    while i>0:
         fila = OPT[i]
         print(fila)
         j = fila.index(max(fila))
         print("j es ", j)
-        for _ in range(j):
-            reco.append("DESCANSAR")
+        for _ in range(j-1):
+            reco.insert(0,"DESCANSAR")
+        if i-j<=0:
+            return reco
+        reco.insert(0, "ATACAR")
         i = i-j
-        print("reco es ", reco)
-        print("i es ", i)
-
-    return reco.reverse()
+    reco
+    return reco
         
 
 
@@ -74,8 +75,8 @@ def main():
     n,x,f = leer_prueba('set_pruebas/5.txt')
     OPT = algoritmo_llorens2(x, f, n)
     print(OPT)
-    #reco = reconstruccion_pacheco(OPT, n)
-    #print(reco)
+    reco = (reconstruccion_pacheco(OPT, n))
+    print(reco)
     # return reconstruccion(OPT, n)
 
 main()
