@@ -1,7 +1,7 @@
 import os
 from leer_prueba import leer_prueba
-from main import algoritmo_nuevo
-from main import algoritmo_llorens2
+from main import defensa_optima
+from main import reconstruccion
 
 set_pruebas = "./set_pruebas"
 
@@ -15,12 +15,12 @@ for file in os.listdir(set_pruebas):
     file = set_pruebas + "/" + file 
     
     n, x, f = leer_prueba(file)
-    OPT = algoritmo_nuevo(x, f, n)
-    coef = max(OPT[n])
+    OPT = defensa_optima(x, f, n)
+    reco, max_bajas = reconstruccion(OPT, n)
 
     print("Prueba: " + prueba )
-    if coef == coeficiente_esperado[i]:
-        print("\t...CORRECTA" + " el numero de bajas máximo es " + str(coef))
+    if max_bajas == coeficiente_esperado[i]:
+        print("\t...CORRECTA" + " el numero de bajas máximo es " + str(max_bajas))
     else:
         print("\t...ERRONEA")
     i += 1
