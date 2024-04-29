@@ -6,36 +6,27 @@ def algoritmo_nuevo(x,f,n):
         return 0
     
     OPT = [[0] * (n+1) for _ in range(n+1)]
-    OPT[1][1] = min(f[1],x[1])
     
-    for m in range(2, n+1):
+    for m in range(1, n+1):
         for j in range(1, m+1):
             OPT[m][j] = max(OPT[m][j-1], (OPT[m-j][m-j] + min(f[j], x[m])))
 
     return OPT
 
 def reconstruccion_nuevo(OPT, n):
-    ataques = []
+    reco = []
     max_bajas = OPT[n][n]
     m, j = n,n
-    while True:
-        if j == 0:
-            break
+    while j != 0:
         if OPT[m][j] != OPT[m][j-1]:
-            ataques.append(m)
-            m = m-j
+            reco.insert(0, "ATACAR")
+            for i in range(j-1):
+                reco.insert(0, "DESCANSAR")
+            m -= j
             j = m
         else:
-            j -=1
+            j -= 1
 
-    reco = []
-
-    for i in range(1, n+1):
-        if len(ataques) > 0 and ataques[-1] == i:
-            reco.append("ATACAR")
-            ataques.pop(-1)
-        else:
-            reco.append("DESCANSAR")
     return reco, max_bajas
 
 
