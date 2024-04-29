@@ -5,7 +5,8 @@ from main import reconstruccion
 
 set_pruebas = "./set_pruebas"
 
-coeficiente_esperado = [2118,7492,4508,1237,11603,4230,1413,3994,15842,504220]
+coeficiente_esperado = [2118,7492,4508,1237,1027749,11603,4230,825776,1167532,2321418,3087557,1424488,4400750,1413,3994,15842,504220]
+
 i = 0
 
 for file in os.listdir(set_pruebas):
