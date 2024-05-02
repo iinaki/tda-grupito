@@ -36,20 +36,6 @@ Para la ejecucion de todas las pruebas en el directorio `set-pruebas` se debe co
 python tests.py
 ```
 
-### Ejemplo con el set de 10 elementos dado por la cátedra
+### Ejemplo de ejecución
 
-```sh
-resultado esperado:
-309600
-T_i,B_i
-53,100
-61,100
-68,100
-68,100
-86,100
-35,100
-97,100
-58,100
-47,100
-82,100
-```
+![Preubas](img/pruebas.png)
