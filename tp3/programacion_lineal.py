@@ -7,7 +7,7 @@ from backtracking import sumatoria
 def min_sumatoria_LP(maestros, k):
     n = len(maestros)
     
-    prob = pulp.LpProblem("Water_Tribewith_Skills", pulp.LpMinimize)
+    prob = pulp.LpProblem("tribu del agua", pulp.LpMinimize)
     
     x = pulp.LpVariable.dicts("x", ((i, j) for i in range(n) for j in range(k)), cat='Binary') # 1 si el maestro i esta en el grupo j, 0 si no
     suma_grupo = pulp.LpVariable.dicts("suma_grupo", (i for i in range(k)), lowBound=0, cat='Integer') # suma de habilidades de los maestros en grupo j
