@@ -1,0 +1,27 @@
+# La primera linea indica la cantidad de grupos a formar, las siguientes son de la forma 'nombre maestro, habilidad'
+10
+Pakku, 101
+Yue, 134
+Yakone, 759
+Pakku I, 308
+Wei, 644
+Iroh, 290
+Azula, 320
+Mai, 455
+Ty Lee, 499
+Aang, 530
+Katara, 345
+Toph, 678
+Sokka, 234
+Zuko, 765
+Bumi, 129
+Jinora, 278
+Korra, 553
+Asami, 634
+Mako, 245
+Bolin, 417
+Lin, 584
+Suyin, 290
+Opal, 355
+Kai, 478
+Haru, 312
