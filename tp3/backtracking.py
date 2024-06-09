@@ -28,7 +28,7 @@ def _min_sum(maestros, grupos, n, sc):
         return
 
     # si algun grupo supera la cota superior
-    if superanCotaSuperior(grupos,sc[2]):
+    if superan_cota_superior(grupos,sc[2]):
         return
 
     # calculo la sumatoria parcial
@@ -64,7 +64,7 @@ def grupos_vacios(grupos):
 def sumatoria(grupos):
     return sum(pow(sum(y for (x, y) in g), 2) for g in grupos)
 
-def superanCotaSuperior(grupos, cota_sup):
+def superan_cota_superior(grupos, cota_sup):
     for g in grupos:
         if len(g) > 1 and sum(y for (x,y) in g) > cota_sup:
             return True
