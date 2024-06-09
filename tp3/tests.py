@@ -1,7 +1,7 @@
 import os
 import time
 from backtracking import min_sumatoria
-from programacion_lineal import min_sumatoria_LP
+#from programacion_lineal import min_sumatoria_LP
 from leer_prueba import leer_prueba
 
 files = os.listdir("./pruebas")
@@ -28,16 +28,16 @@ def print_tiempos(tiempos):
         print("Archivo: ", t[0])
         print("Duracion: ", t[1])
         print("GRUPOS:")
-        for i, g in enumerate(grupos):
+        for i, g in enumerate(t[2]):
             print("GRUPO", i, g)
         print("Coeficiente: ", t[3])
 
 tiempos_bck = tiempos_algoritmo(min_sumatoria)
 
-tiempos_LP = tiempos_algoritmo(min_sumatoria_LP)
+#tiempos_LP = tiempos_algoritmo(min_sumatoria_LP)
 
 print("TIEMPOS DE BACKTRACKING")
 print_tiempos(tiempos_bck)
 
-print("TIEMPOS DE LP")
-print_tiempos(tiempos_LP)
+#print("TIEMPOS DE LP")
+#print_tiempos(tiempos_LP)
