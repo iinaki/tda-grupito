@@ -14,11 +14,11 @@ def min_sumatoria(maestros, k):
 
     sc = [grupo_inicial, suma_total, cota_sup]
 
-    _min_sum(maestros, grupos, 0, sc, cota_sup)
+    _min_sum(maestros, grupos, 0, sc)
 
     return sc[0], sc[1]
 
-def _min_sum(maestros, grupos, n, sc, v_medio):
+def _min_sum(maestros, grupos, n, sc):
 
     if n > len(maestros):
         return
@@ -55,7 +55,7 @@ def _min_sum(maestros, grupos, n, sc, v_medio):
     a = len(grupos)-1 - n if n <= len(grupos)-1 else 0 #recorte de posibilidades de primeros k grupos
     for g in grupos[a:]:
         g.append(maestros[n])
-        _min_sum(maestros, grupos, n+1, sc, v_medio)
+        _min_sum(maestros, grupos, n+1, sc)
         g.pop()
 
 def grupos_vacios(grupos):
@@ -76,14 +76,8 @@ def cota_superior(grupos):
 
 def distribucion_inicial(maestros, k):
     grupos = [[] for _ in range(k)]
-
+    maestros = sorted(maestros, key=lambda x: x[1], reverse=True)
     while (len(maestros) > 0):
-
-        for i in range(k):
-            if len(maestros) > 0:
-                grupos[i].append(maestros.pop(0))
-
-        for i in range(k):
-            if len(maestros) > 0:
-                grupos[i].append(maestros.pop())
+        grupos.sort(key=lambda g: sum(y for (x, y) in g))
+        grupos[0].append(maestros.pop(0))
     return grupos
