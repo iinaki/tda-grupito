@@ -1,3 +1,6 @@
+import sys
+import time
+from leer_prueba import leer_prueba
 from greedy import greedy_aproximacion_de_pakku
 
 def min_sumatoria(maestros, k):
@@ -7,7 +10,7 @@ def min_sumatoria(maestros, k):
     #los ordeno para que se recorten los primeroas ramas con valores altos
     maestros = sorted(maestros, key=lambda x : x[1], reverse=True)
 
-    grupo_inicial = distribucion_inicial(maestros.copy(),k)
+    grupo_inicial, coef = greedy_aproximacion_de_pakku(maestros.copy(),k)
 
     suma_total = sumatoria(grupo_inicial)
 
@@ -75,4 +78,17 @@ def cota_superior(grupos):
     grupo_max = max(grupos, key=lambda x : sum(y for (x, y) in x))
     return (sum(y for (x,y) in grupo_max))
 
+if __name__ == '__main__':
+    x = leer_prueba(sys.argv[1])
+
+    start = time.time()
+    grupos, coef = min_sumatoria(x[1:], x[0])
+    end = time.time()
+
+    print("Archivo: ", sys.argv[1])
+    print("Duracion: ", end - start)
+    print("GRUPOS:")
+    for i, g in enumerate(grupos):
+        print("GRUPO", i, g)
+    print("Coeficiente: ", coef)
 

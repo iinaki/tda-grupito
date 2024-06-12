@@ -24,7 +24,7 @@ def tiempos_algoritmo(algoritmo):
     return tiempos
 
 def print_tiempos(algoritmo):
-    tiempos_bck = tiempos_algoritmo(algoritmo)
+    tiempos = tiempos_algoritmo(algoritmo)
 
     for t in tiempos:
         print("Archivo: ", t[0])

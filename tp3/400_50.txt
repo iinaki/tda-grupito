@@ -1,0 +1,405 @@
+# comentario
+50
+Pakku, 101
+Yue, 134
+Yakone, 759
+Pakku I, 308
+Wei, 644
+Iroh, 290
+Azula, 320
+Mai, 455
+Ty Lee, 499
+Aang, 530
+Katara, 345
+Toph, 678
+Sokka, 234
+Zuko, 765
+Bumi, 129
+Jinora, 278
+Korra, 553
+Asami, 634
+Mako, 245
+Bolin, 417
+Lin, 584
+Suyin, 290
+Opal, 355
+Kai, 478
+Haru, 312
+Jet, 544
+Longshot, 134
+Smellerbee, 248
+Teo, 423
+Duke, 245
+Pipsqueak, 389
+The Boulder, 501
+Meng, 214
+June, 430
+Zhao, 278
+Jeong Jeong, 674
+Unalaq, 503
+Varrick, 568
+Zhu Li, 399
+Zaheer, 712
+Ghazan, 430
+P'Li, 555
+Ming Hua, 278
+Kuvira, 670
+Baatar, 312
+Bumi II, 499
+Kya, 423
+Amon, 645
+Tarrlok, 430
+Noatak, 754
+Guru Pathik, 234
+Ursa, 379
+Hakoda, 421
+Pakku II, 501
+Yue II, 222
+Yakone II, 658
+Pakku III, 309
+Wei II, 489
+Iroh II, 350
+Azula II, 490
+Mai II, 212
+Ty Lee II, 479
+Aang II, 540
+Katara II, 455
+Toph II, 678
+Sokka II, 325
+Zuko II, 654
+Bumi III, 231
+Jinora II, 478
+Korra II, 532
+Asami II, 634
+Mako II, 345
+Bolin II, 419
+Lin II, 500
+Suyin II, 389
+Opal II, 400
+Kai II, 485
+Haru II, 318
+Jet II, 552
+Longshot II, 132
+Smellerbee II, 238
+Teo II, 430
+Duke II, 240
+Pipsqueak II, 388
+The Boulder II, 501
+Meng II, 210
+June II, 420
+Zhao II, 275
+Jeong Jeong II, 674
+Unalaq II, 505
+Varrick II, 570
+Zhu Li II, 395
+Zaheer II, 710
+Ghazan II, 430
+P'Li II, 556
+Ming Hua II, 270
+Kuvira II, 671
+Baatar II, 310
+Bumi IIII, 495
+Kya II, 420
+Amon II, 646
+Tarrlok II, 429
+Noatak II, 755
+Guru Pathik II, 235
+Pakku IV, 102
+Yue III, 136
+Yakone III, 760
+Pakku V, 310
+Wei III, 645
+Iroh III, 291
+Azula III, 321
+Mai III, 456
+Ty Lee III, 500
+Aang III, 531
+Katara III, 346
+Toph III, 679
+Sokka III, 235
+Zuko III, 766
+Bumi IV, 130
+Jinora III, 279
+Korra III, 554
+Asami III, 635
+Mako III, 246
+Bolin III, 418
+Lin III, 585
+Suyin III, 291
+Opal III, 356
+Kai III, 479
+Haru III, 313
+Jet III, 545
+Longshot III, 135
+Smellerbee III, 249
+Teo III, 424
+Duke III, 246
+Pipsqueak III, 390
+The Boulder III, 502
+Meng III, 215
+June III, 431
+Zhao III, 279
+Jeong Jeong III, 675
+Unalaq III, 504
+Varrick III, 569
+Zhu Li III, 400
+Zaheer III, 713
+Ghazan III, 431
+P'Li III, 556
+Ming Hua III, 279
+Kuvira III, 671
+Baatar III, 313
+Bumi V, 500
+Kya III, 424
+Amon III, 646
+Tarrlok III, 431
+Noatak III, 755
+Guru Pathik III, 236
+Ursa II, 380
+Hakoda II, 422
+Pakku VI, 502
+Yue IV, 223
+Yakone IV, 659
+Pakku VII, 310
+Wei IV, 490
+Iroh IV, 351
+Azula IV, 491
+Mai IV, 213
+Ty Lee IV, 480
+Aang IV, 541
+Katara IV, 456
+Toph IV, 679
+Sokka IV, 326
+Zuko IV, 655
+Bumi VI, 232
+Jinora IV, 479
+Korra IV, 533
+Asami IV, 635
+Mako IV, 346
+Bolin IV, 420
+Lin IV, 501
+Suyin IV, 390
+Opal IV, 401
+Kai IV, 486
+Haru IV, 319
+Jet IV, 553
+Longshot IV, 133
+Smellerbee IV, 239
+Teo IV, 431
+Duke IV, 241
+Pipsqueak IV, 389
+The Boulder IV, 502
+Meng IV, 211
+June IV, 421
+Zhao IV, 276
+Jeong Jeong IV, 675
+Unalaq IV, 506
+Varrick IV, 571
+Zhu Li IV, 396
+Zaheer IV, 711
+Ghazan IV, 431
+P'Li IV, 557
+Ming Hua IV, 271
+Kuvira IV, 672
+Baatar IV, 311
+Bumi VII, 496
+Kya IV, 421
+Amon IV, 647
+Tarrlok IV, 430
+Noatak IV, 756
+Guru Pathik IV, 236
+Pakku VIII, 103
+Yue V, 137
+Yakone V, 761
+Pakku IX, 311
+Wei V, 646
+Iroh V, 292
+Azula V, 322
+Mai V, 457
+Ty Lee V, 501
+Aang V, 532
+Katara V, 347
+Toph V, 680
+Sokka V, 236
+Zuko V, 767
+Bumi VIII, 131
+Jinora V, 280
+Korra V, 555
+Asami V, 636
+Mako V, 247
+Bolin V, 419
+Lin V, 586
+Suyin V, 292
+Opal V, 357
+Kai V, 480
+Haru V, 314
+Jet V, 546
+Longshot V, 136
+Smellerbee V, 250
+Teo V, 425
+Duke V, 247
+Pipsqueak V, 391
+The Boulder V, 503
+Meng V, 216
+June V, 432
+Zhao V, 280
+Jeong Jeong V, 676
+Unalaq V, 505
+Varrick V, 570
+Zhu Li V, 401
+Zaheer V, 714
+Ghazan V, 432
+P'Li V, 557
+Ming Hua V, 280
+Kuvira V, 672
+Baatar V, 314
+Bumi IX, 501
+Kya V, 425
+Amon V, 647
+Tarrlok V, 432
+Noatak V, 756
+Guru Pathik V, 237
+Ursa III, 381
+Hakoda III, 423
+Pakku X, 503
+Yue VI, 224
+Yakone VI, 660
+Pakku XI, 311
+Wei VI, 491
+Iroh VI, 352
+Azula VI, 492
+Mai VI, 214
+Ty Lee VI, 481
+Aang VI, 542
+Katara VI, 457
+Toph VI, 680
+Sokka VI, 327
+Zuko VI, 656
+Bumi X, 233
+Jinora VI, 480
+Korra VI, 534
+Asami VI, 636
+Mako VI, 347
+Bolin VI, 421
+Lin VI, 502
+Suyin VI, 391
+Opal VI, 402
+Kai VI, 487
+Haru VI, 320
+Jet VI, 554
+Longshot VI, 134
+Smellerbee VI, 240
+Teo VI, 432
+Duke VI, 242
+Pipsqueak VI, 390
+The Boulder VI, 503
+Meng VI, 212
+June VI, 422
+Zhao VI, 277
+Jeong Jeong VI, 676
+Unalaq VI, 507
+Varrick VI, 572
+Zhu Li VI, 397
+Zaheer VI, 712
+Ghazan VI, 432
+P'Li VI, 558
+Ming Hua VI, 272
+Kuvira VI, 673
+Baatar VI, 312
+Bumi XI, 497
+Kya VI, 422
+Amon VI, 648
+Tarrlok VI, 431
+Noatak VI, 757
+Guru Pathik VI, 237
+Pakku XII, 104
+Yue VII, 138
+Yakone VII, 762
+Pakku XIII, 312
+Wei VII, 647
+Iroh VII, 293
+Azula VII, 323
+Mai VII, 458
+Ty Lee VII, 502
+Aang VII, 533
+Katara VII, 348
+Toph VII, 681
+Sokka VII, 237
+Zuko VII, 768
+Bumi XII, 132
+Jinora VII, 281
+Korra VII, 556
+Asami VII, 637
+Mako VII, 248
+Bolin VII, 420
+Lin VII, 587
+Suyin VII, 293
+Opal VII, 358
+Kai VII, 481
+Haru VII, 315
+Jet VII, 547
+Longshot VII, 137
+Smellerbee VII, 251
+Teo VII, 426
+Duke VII, 248
+Pipsqueak VII, 392
+The Boulder VII, 504
+Meng VII, 217
+June VII, 433
+Zhao VII, 281
+Jeong Jeong VII, 677
+Unalaq VII, 506
+Varrick VII, 571
+Zhu Li VII, 402
+Zaheer VII, 715
+Ghazan VII, 433
+P'Li VII, 558
+Ming Hua VII, 281
+Kuvira VII, 673
+Baatar VII, 315
+Bumi XIII, 502
+Kya VII, 426
+Amon VII, 648
+Tarrlok VII, 433
+Noatak VII, 757
+Guru Pathik VII, 238
+Ursa IV, 382
+Hakoda IV, 424
+Pakku XIV, 504
+Yue VIII, 225
+Yakone VIII, 661
+Pakku XV, 313
+Wei VIII, 492
+Iroh VIII, 353
+Azula VIII, 493
+Mai VIII, 215
+Ty Lee VIII, 482
+Aang VIII, 543
+Katara VIII, 458
+Toph VIII, 681
+Sokka VIII, 328
+Zuko VIII, 657
+Bumi XIV, 234
+Jinora VIII, 481
+Korra VIII, 535
+Asami VIII, 637
+Mako VIII, 348
+Bolin VIII, 422
+Lin VIII, 503
+Suyin VIII, 392
+Opal VIII, 403
+Kai VIII, 488
+Haru VIII, 321
+Jet VIII, 555
+Longshot VIII, 135
+Smellerbee VIII, 241
+Teo VIII, 433
+Duke VIII, 243
+Pipsqueak VIII, 391
+The Boulder VIII, 504
+Meng VIII, 213
+June VIII, 423
+Zhao VIII, 278
+Jeong Jeong VIII, 677
+Unalaq VIII, 508
+Varrick VIII, 573
