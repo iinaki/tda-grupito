@@ -1,3 +1,4 @@
+from backtracking import sumatoria
 
 #Aproximacion del Maestro Pakku
 def greedy_aproximacion_de_pakku(maestros, k):
@@ -7,8 +8,10 @@ def greedy_aproximacion_de_pakku(maestros, k):
     while (len(maestros) > 0):
         grupos.sort(key=lambda g: sum(y for (x, y) in g))
         grupos[0].append(maestros.pop(0))
-        
-    return grupos
+
+    coef = sumatoria(grupos)
+
+    return grupos, coef
 
 #Nuestro algoritmo greedy
 def greedy(maestros, k):
@@ -24,4 +27,7 @@ def greedy(maestros, k):
         for i in range(k):
             if len(maestros) > 0:
                 grupos[i].append(maestros_copy.pop())
-    return grupos
+
+    coef = sumatoria(grupos)
+
+    return grupos, coef

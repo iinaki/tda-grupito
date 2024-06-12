@@ -1,7 +1,7 @@
 import os
 import time
 from backtracking import min_sumatoria
-#from programacion_lineal import min_sumatoria_LP
+from greedy import greedy_aproximacion_de_pakku, greedy
 from leer_prueba import leer_prueba
 
 files = os.listdir("./pruebas")
@@ -23,7 +23,9 @@ def tiempos_algoritmo(algoritmo):
 
     return tiempos
 
-def print_tiempos(tiempos):
+def print_tiempos(algoritmo):
+    tiempos_bck = tiempos_algoritmo(algoritmo)
+
     for t in tiempos:
         print("Archivo: ", t[0])
         print("Duracion: ", t[1])
@@ -32,11 +34,11 @@ def print_tiempos(tiempos):
             print("GRUPO", i, g)
         print("Coeficiente: ", t[3])
 
-tiempos_bck = tiempos_algoritmo(min_sumatoria)
-#tiempos_LP = tiempos_algoritmo(min_sumatoria_LP)
-
 print("TIEMPOS DE BACKTRACKING")
-print_tiempos(tiempos_bck)
+print_tiempos(min_sumatoria)
 
-#print("TIEMPOS DE LP")
-#print_tiempos(tiempos_LP)
+print("TIEMPOS DE GREEDY - APROXIMACION DE PAKKU")
+print_tiempos(greedy_aproximacion_de_pakku)
+
+print("TIEMPOS DE GREEDY - SOLUCION NUESTRA")
+print_tiempos(greedy)
