@@ -1,3 +1,5 @@
+from greedy import distribucion_inicial
+
 
 def min_sumatoria(maestros, k):
 
@@ -74,10 +76,4 @@ def cota_superior(grupos):
     grupo_max = max(grupos, key=lambda x : sum(y for (x, y) in x))
     return (sum(y for (x,y) in grupo_max))
 
-def distribucion_inicial(maestros, k):
-    grupos = [[] for _ in range(k)]
-    maestros = sorted(maestros, key=lambda x: x[1], reverse=True)
-    while (len(maestros) > 0):
-        grupos.sort(key=lambda g: sum(y for (x, y) in g))
-        grupos[0].append(maestros.pop(0))
-    return grupos
+
