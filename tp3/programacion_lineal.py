@@ -57,7 +57,7 @@ def min_sumatoria_LP(maestros, k):
     return grupos, suma
 
 
-file = "./pruebas/17_5.txt"
+file = "./pruebas/17_7.txt"
 x = leer_prueba(file)
 start = time.time()
 grupos, suma = min_sumatoria_LP(x[1:],x[0])
@@ -83,7 +83,7 @@ print("Duracion: ", duration)
 # 14_6 207.54047012329102 10694510
 # 15_4 18.635557413101196 4311889
 # 15_6 332.6746037006378 6378149
-# 17_5 tarda 5mins y bien
+# 17_5 600.2777290344238 15974095
 # 17_7 tarda 5mins y 11513230 contra 11515918
 # 17_10
 # 18_6

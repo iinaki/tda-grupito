@@ -1,4 +1,6 @@
-from backtracking import sumatoria
+
+def sumatoria(grupos):
+    return sum(pow(sum(y for (x, y) in g), 2) for g in grupos)
 
 #Aproximacion del Maestro Pakku
 def greedy_aproximacion_de_pakku(maestros, k):
