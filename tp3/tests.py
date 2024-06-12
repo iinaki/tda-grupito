@@ -33,7 +33,6 @@ def print_tiempos(tiempos):
         print("Coeficiente: ", t[3])
 
 tiempos_bck = tiempos_algoritmo(min_sumatoria)
-
 #tiempos_LP = tiempos_algoritmo(min_sumatoria_LP)
 
 print("TIEMPOS DE BACKTRACKING")

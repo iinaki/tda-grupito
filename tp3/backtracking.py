@@ -1,5 +1,4 @@
-from greedy import distribucion_inicial
-
+from greedy import greedy_aproximacion_de_pakku
 
 def min_sumatoria(maestros, k):
 

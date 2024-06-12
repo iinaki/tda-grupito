@@ -1,11 +1,13 @@
 
 #Aproximacion del Maestro Pakku
-def distribucion_inicial(maestros, k):
+def greedy_aproximacion_de_pakku(maestros, k):
     grupos = [[] for _ in range(k)]
     maestros = sorted(maestros, key=lambda x: x[1], reverse=True)
+
     while (len(maestros) > 0):
         grupos.sort(key=lambda g: sum(y for (x, y) in g))
         grupos[0].append(maestros.pop(0))
+        
     return grupos
 
 #Nuestro algoritmo greedy
