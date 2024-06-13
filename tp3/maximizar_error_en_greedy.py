@@ -20,10 +20,8 @@ problem += b >= c, "Constraint_3"
 problem += c >= d, "Constraint_4"
 problem += d >= 0, "Constraint_5"
 
-# Resolver el problema
 problem.solve()
 
-# Mostrar los resultados
 print(f"Estado: {pulp.LpStatus[problem.status]}")
 print(f"b: {b.varValue}")
 print(f"c: {c.varValue}")

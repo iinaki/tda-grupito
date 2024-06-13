@@ -1,0 +1,103 @@
+# comentario
+2
+Pakku, 1000
+Yue, 900
+Yakone, 800
+Pakku I, 600
+Wei, 500
+Iroh, 500
+Azula, 500
+Mai, 500
+Ty Lee, 500
+Aang, 500
+Katara, 500
+Toph, 500
+Sokka, 500
+Zuko, 500
+Bumi, 500
+Jinora, 500
+Korra, 500
+Asami, 500
+Mako, 500
+Bolin, 500
+Lin, 500
+Suyin, 500
+Opal, 500
+Kai, 500
+Haru, 500
+Jet, 500
+Longshot, 500
+Smellerbee, 500
+Teo, 500
+Duke, 500
+Pipsqueak, 500
+The Boulder, 500
+Meng, 500
+June, 500
+Zhao, 500
+Jeong Jeong, 500
+Unalaq, 500
+Varrick, 500
+Zhu Li, 500
+Zaheer, 500
+Ghazan, 500
+P'Li, 500
+Ming Hua, 500
+Kuvira, 500
+Baatar, 500
+Bumi II, 500
+Kya, 500
+Amon, 500
+Tarrlok, 500
+Noatak, 500
+Guru Pathik, 500
+Ursa, 500
+Hakoda, 500
+Pakku II, 500
+Yue II, 500
+Yakone II, 500
+Pakku III, 500
+Wei II, 500
+Iroh II, 500
+Azula II, 500
+Mai II, 500
+Ty Lee II, 500
+Aang II, 500
+Katara II, 500
+Toph II, 500
+Sokka II, 500
+Zuko II, 500
+Bumi III, 500
+Jinora II, 500
+Korra II, 500
+Asami II, 500
+Mako II, 500
+Bolin II, 500
+Lin II, 500
+Suyin II, 500
+Opal II, 500
+Kai II, 500
+Haru II, 500
+Jet II, 500
+Longshot II, 500
+Smellerbee II, 500
+Teo II, 500
+Duke II, 500
+Pipsqueak II, 500
+The Boulder II, 500
+Meng II, 500
+June II, 500
+Zhao II, 500
+Jeong Jeong II, 500
+Unalaq II, 500
+Varrick II, 500
+Zhu Li II, 500
+Zaheer II, 500
+Ghazan II, 500
+P'Li II, 500
+Ming Hua II, 500
+Kuvira II, 500
+Baatar II, 500
+Bumi IIII, 500
+Kya II, 500
+Kya II, 500
