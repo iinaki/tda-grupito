@@ -4,7 +4,7 @@
 
 ## Para ejecutar sobre un archivo específico
 
-Para utilizar el programa se debe ejecutar en la terminal el siguiente comando, especificando el path al archivo al cual que se le quiere realizar el algoritmo:
+Para utilizar el programa se debe ejecutar en la terminal el siguiente comando, especificando el path al archivo al cual que se le quiere realizar el algoritmo:  
 ```sh
 python main.py set_pruebas/5.txt
 ```

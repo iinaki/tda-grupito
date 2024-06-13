@@ -35,11 +35,7 @@ def min_sumatoria_LP(maestros, k):
     for j in range(k):
         prob += Y <= suma_grupo[j]
 
-    #hacer sudo apt-get install glpk-utils
-
     solver = pulp.PULP_CBC_CMD(timeLimit=600)
-    
-    #solver = pulp.GLPK_CMD(timeLimit=600, options=['--tmlim', '600'])
 
     prob.solve(solver)
     

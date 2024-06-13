@@ -2,6 +2,7 @@ import os
 import time
 from backtracking import min_sumatoria
 from greedy import greedy_aproximacion_de_pakku, greedy
+from programacion_lineal import min_sumatoria_LP
 from leer_prueba import leer_prueba
 
 files = os.listdir("./pruebas")
@@ -42,3 +43,7 @@ print_tiempos(greedy_aproximacion_de_pakku)
 
 print("TIEMPOS DE GREEDY - SOLUCION NUESTRA")
 print_tiempos(greedy)
+
+# SI SE QUIERE EJECUTAR LOS TESTS CON PLE, DESCOMENTAR ESTAS LINEAS
+# print("TIEMPOS DE PROGRAMACION LINEAL")
+# print_tiempos(min_sumatoria_LP)
